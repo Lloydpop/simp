@@ -212,7 +212,7 @@ header p{
     text-align: center;
     background-color: #292c36;
     width:70%;
-    height: 200px;
+    min-height: 210px;
     margin: auto;
     margin-top: 60px;
     padding: 30px;
