@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffff;
+    background-color:rgb(32, 32, 32);
+    overflow-x: hidden;
+}
+.nav-section{
+    background-image: url(/image11/bg-image\ 1.png);
+    background-size: cover;
+    background-position: center;
+    min-height:500px;
+    text-transform: capitalize;
+}
+nav{
+    display: flex;
+    justify-content:space-between;
+    padding: 15px;
+    align-items: center;
+    padding: 10px 90px 10px  90px;
+}
+.nav-logo{
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+.nav-logo h4{
+    margin-left: 10px;
+}
+.nav-links ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+}
+.nav-links ul li a {
+    color: #fff;
+    letter-spacing: 0.9px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height:500px;
+}
+header h1{
+   font-size: 2.6rem;
+   margin-bottom: 10px;
+}
+header p{
+    font-size: 1.4rem;
+}
+.socials{
+    display: flex;
+    margin-top: 10px;
+}
+.socials div{
+    background-color: #fff;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.socials a{
+    display: inline-block;
+}
+.section,.section2,.section3{
+    padding-top: 70px;
+
+}
+.content{
+    display: flex;
+    justify-content:space-around;
+
+}
+.sec{
+    flex-basis: 40%;
+   
+}
+.about-text h2{
+    color: #4C70EF;
+
+    text-transform: uppercase;
+}
+.name{
+    font-size: 1.7rem;
+    margin: 10px 0px 10px 0px;
+    text-transform:capitalize;
+}
+.brief{
+    margin: 10px 0px 10px 0px;
+}
+.brief p{
+    font-size:1rem;
+    text-transform:capitalize;
+    color: #B0ADAD;
+    margin-bottom: 30px;
+}
+.content .about-img {
+    flex-basis: 35%;
+   border: 2px solid #fff;
+   height: 320px;
+   border-top-left-radius: 9px;
+   border-bottom-right-radius: 9px;
+}
+.about-img div{
+    margin: -14px;
+    width: 100%;
+    height: 100%;
+}
+.about-img div img{
+    width:100%;
+    height: 100%;
+    border-top-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+}
+.specialized{
+    display: flex;
+    justify-content: center;
+}
+.icon-flex{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    background-color: rgba(255, 255, 255, 0.103);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.work p{
+    margin-left: 20px;
+    text-transform: capitalize;
+    line-height: 1.4rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.explain{
+    margin-top: 20px;
+}
+.section2 .sec{
+    background-color: #292c36;
+    flex-basis: 40%;
+    min-height: 200px;
+    margin:20px 0px 20px 20px;
+    padding: 20px;
+    border-radius: 6px;
+}
+.port,.section3 .about-text h1 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section3 .sec{
+   flex-basis: 30%;
+   margin-left: 20px;
+   border-radius: 9px;
+   background-color: #292c36;
+}
+.section3 .sec div{
+     width: 100%;
+ }
+.section3 .sec div img{
+    width: 100%;
+}
+.section2 .about-text h2, .section2 .about-text h1{
+    text-align: center;
+}
+.tips{
+    padding: 20px;
+}
+.tips{
+    color: #fff;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: #558FFF;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+.tips2{
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: #292c36;
+    width:70%;
+    height: 200px;
+    margin: auto;
+    margin-top: 60px;
+    padding: 30px;
+    border-radius: 15px;
+}
+footer{
+    margin-top: 60px;
+    text-align: center;
+    text-transform:uppercase;
+    background-color: #292c36;
+    padding-bottom: 20px;
+}
+footer p{
+    font-weight: 600;
+}
+.hambugar{
+    display: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 6666;
+}
+.hambugar span{
+    display: block;
+    border-top: 3px solid #fff;
+    width: 30px;
+    margin-bottom: 5px;
+}
+.hambugar.active span{
+    border-color: #000;
+    transition: 0.5s;
+  }
