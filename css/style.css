@@ -244,3 +244,6 @@ footer p{
     border-color: #000;
     transition: 0.5s;
   }
+  footer .nav-logo{
+    justify-content: center;
+  }
