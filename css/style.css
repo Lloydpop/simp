@@ -7,10 +7,9 @@ body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: #ffff;
     background-color:rgb(32, 32, 32);
-}
-.container{
     overflow-x: hidden;
 }
+
 .nav-section{
     background-image: url(/image11/bg-image\ 1.png);
     background-size: cover;
