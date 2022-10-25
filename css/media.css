@@ -51,6 +51,9 @@
    .section2 .sec{
       margin:20px 0px 20px 0px;
    }
+   .section3 .sec{
+      margin-left:0;
+   }
      .sect{
         margin: auto;
         width: 80%;
